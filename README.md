@@ -1,4 +1,4 @@
-# Shoyaib YT - Professional E-football Gamer Profile
+# Professional E-football Gamer Profile
 
 This is the gaming simple portfolio profile website for **Shoyaib YT**, a professional E-football gamer and content creator. Built with **Next.js 16**, **Tailwind CSS v4**, and **TypeScript**, this project features a high-performance, secure, and visually stunning design.
 
