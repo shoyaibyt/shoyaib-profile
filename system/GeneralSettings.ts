@@ -52,7 +52,10 @@ export const GeneralSettings = {
   //  FULL PAGE BACKGROUND VIDEO
   //  This video plays behind the entire website. Use a direct link or ID ex: 1164309507
   // =====================================================================
-  backgroundVideo: "https://player.vimeo.com/video/1164309507",
+  backgroundVideo: {
+    vimeo: "", 
+    youtube: "GV1B6wPP0Ow", 
+  },
 
   // =====================================================================
   //  SOCIAL MEDIA LINKS
