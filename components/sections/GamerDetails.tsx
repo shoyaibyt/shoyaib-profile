@@ -1,14 +1,14 @@
 'use client';
 import { useState } from 'react';
+import { GeneralSettings } from '@/system/GeneralSettings';
 
 export default function GamerDetails() {
   const [isCopied, setIsCopied] = useState(false);
 
   const copyToClipboard = () => {
-    navigator.clipboard.writeText("ShoyaibYT");
+    navigator.clipboard.writeText(GeneralSettings.gamerDetails.inGameName);
     setIsCopied(true);
     
-    // Reset back to original state after 2 seconds
     setTimeout(() => {
       setIsCopied(false);
     }, 2000);
@@ -17,13 +17,12 @@ export default function GamerDetails() {
   return (
     <div className="space-y-4">
       
-      {/* In-Game Name */}
       <div className="flex items-start">
         <i className="fas fa-user-tie text-slate-400 w-5 text-center pt-1"></i>
         <div className="ml-3 w-full">
           <h3 className="text-sm font-medium text-slate-400">In-Game Name</h3>
           <div className="flex items-center gap-3 mt-1">
-            <p className="font-semibold text-slate-200 text-[15px]">ShoyaibYT</p>
+            <p className="font-semibold text-slate-200 text-[15px]">{GeneralSettings.gamerDetails.inGameName}</p>
             
             <button 
               onClick={copyToClipboard}
@@ -49,21 +48,19 @@ export default function GamerDetails() {
         </div>
       </div>
 
-      {/* Started Streaming */}
       <div className="flex items-start">
         <i className="fas fa-calendar-alt text-slate-400 w-5 text-center pt-1"></i>
         <div className="ml-3">
           <h3 className="text-sm font-medium text-slate-400">Started Streaming</h3>
-          <p className="font-semibold text-slate-200">January 2024</p>
+          <p className="font-semibold text-slate-200">{GeneralSettings.gamerDetails.startedStreaming}</p>
         </div>
       </div>
 
-      {/* Main Platform */}
       <div className="flex items-start">
         <i className="fas fa-desktop text-slate-400 w-5 text-center pt-1"></i>
         <div className="ml-3">
            <h3 className="text-sm font-medium text-slate-400">Main Platform</h3>
-           <p className="font-semibold text-slate-200">PC & Mobile</p>
+           <p className="font-semibold text-slate-200">{GeneralSettings.gamerDetails.mainPlatform}</p>
         </div>
       </div>
 
