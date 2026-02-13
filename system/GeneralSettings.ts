@@ -10,13 +10,13 @@ export const GeneralSettings = {
     
     // The title that appears in the browser tab (e.g., "Home | Shoyaib YT")
     titleTemplate: "%s | Shoyaib YT", 
-    defaultTitle: "Shoyaib YT - Professional E-football Gamer",
+    defaultTitle: "Shoyaib YT - Professional  Gamer",
     
     // A short summary of your site for Google search results
-    description: "Official gamer profile for Shoyaib YT. E-football gameplay, live streams, tutorials, and community.",
+    description: "Official gamer profile for Shoyaib YT. Pc and Mobaile gameplay, live streams, tutorials, and community.",
     
     // Words people might search to find you (separated by commas)
-    keywords: ["Shoyaib YT", "E-football", "Gamer", "PES Mobile", "Gaming Profile", "Esports"],
+    keywords: ["Shoyaib YT", "All games", "Gamer", "PES Mobile", "Gaming Profile", "Esports"],
     
     // Images used when sharing your link on Social Media (keep these in the /public/img folder)
     ogImage: "/img/og-image.jpg",      // For Facebook/WhatsApp
@@ -37,7 +37,7 @@ export const GeneralSettings = {
   // =====================================================================
   profile: {
     name: "Shoyaib YT", // Your main display name
-    subtitle: "Professional E-football Gamer & Content Creator", // The text under your name
+    subtitle: "Professional Pc And Mobaile Gamer & Content Creator", // The text under your name
     verified: true, // Set to 'true' to show the Blue Tick, 'false' to hide it
     image: "/profile.png", // Your profile picture (put the file in /public folder)
     
@@ -53,8 +53,8 @@ export const GeneralSettings = {
   //  This video plays behind the entire website. Use a direct link or ID ex: 1164309507
   // =====================================================================
   backgroundVideo: {
-    vimeo: "", 
-    youtube: "GV1B6wPP0Ow", 
+    vimeo: "1164309507", 
+    youtube: "", 
   },
 
   // =====================================================================
@@ -63,11 +63,11 @@ export const GeneralSettings = {
   // =====================================================================
   social: {
     youtube: "https://www.youtube.com/@shoyaib.yt132",
-    facebook: "https://www.facebook.com/shoyaib.111",
-    instagram: "https://www.facebook.com/shoyaib.111",
-    twitter: "https://www.facebook.com/shoyaib.111",
-    twitch: "https://www.facebook.com/shoyaib.111",
-    discord: "https://www.facebook.com/shoyaib.111",
+    facebook: "https://www.facebook.com/shoyaib.yt.132",
+    instagram: "https://www.facebook.com/shoyaibyt",
+    twitter: "https://www.facebook.com/ShoyaibGaming",
+    twitch: "https://www.facebook.com/shoyaibyt222",
+    
   },
 
   // =====================================================================
@@ -88,7 +88,7 @@ export const GeneralSettings = {
     // 1. About Me Card
     about: {
       title: "About Me",
-      description: "Welcome to my profile! I'm Shoyaib YT, a passionate E-football gamer and content creator. I'm dedicated to mastering the game, sharing my best strategies, and building a strong community of football gaming fans. Join me on my journey!",
+      description: "I'm Shoyaib YT, a professional gamer competing across PC and Mobile platforms. From high-stakes PC shooters to strategic mobile battles, share pro tips, and build a community for true gaming fans.",
     },
     
     // 2. My Content / Services Card
@@ -96,7 +96,7 @@ export const GeneralSettings = {
     contentServices: [
       {
         icon: "fas fa-gamepad", // Icon code from FontAwesome
-        title: "E-football Gameplay",
+        title: "All Gameplay",
         description: "High-level ranked matches, friendly challenges, and pure gameplay videos.",
       },
       {
@@ -112,7 +112,7 @@ export const GeneralSettings = {
       {
         icon: "fas fa-users",
         title: "Community Building",
-        description: "Creating a friendly and supportive space for all E-football lovers.",
+        description: "Creating a friendly and supportive space for all games  lovers.",
       },
     ],
 
@@ -123,27 +123,27 @@ export const GeneralSettings = {
         description: "Achieved the top rank in Season 3, competing against the best players in the region.",
       },
       {
-        title: "10-Goal Thriller Match",
-        description: "A legendary comeback match featured on my YouTube channel with over 100k views.",
+        title: "dengar games  Thriller Match",
+        description: "A legendary comeback match featured on my tik tok channel with over 50k views.",
       },
     ],
 
     // 4. Testimonials (What people say)
     testimonials: [
       {
-        quote: "Shoyaib's tutorials completely changed how I play E-football. His tips on dribbling are game-changing. Keep up the great content!",
+        quote: "Shoyaib's tutorials completely changed how I play games.  Keep up the great content!",
         author: "- A Subscriber",
       },
     ],
 
     // 5. Skills Card (Maximum 6 items recommended)
     skills: [
-      "Advanced Dribbling",
-      "Tactical Formations",
-      "Defensive Strategy",
+      "PC & Mobile Mastery",
+      "OBS & Live Production",
+      "Video Editing & Growth",
       "Set Piece Mastery",
-      "Team Building",
-      "Live Commentary",
+      "FPS & Ping Fix",
+      "Audience Growth",
     ],
   },
 
