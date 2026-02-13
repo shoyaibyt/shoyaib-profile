@@ -42,7 +42,7 @@ export const GeneralSettings = {
     image: "/profile.png", // Your profile picture (put the file in /public folder)
     
     // The video playing BEHIND your profile picture (Use a direct link or Vimeo/YouTube embed)
-    profileBackground: "https://player.vimeo.com/video/1150066871", 
+    profileBackground: "https://player.vimeo.com/video/1164309507", 
     
     email: "shoyaib.gaming.yt.12@gmail.com", // Your contact email
     address: "Nazipur, Patnitala, Naogaon", // Your location
