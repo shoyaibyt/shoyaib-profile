@@ -67,7 +67,7 @@ export const GeneralSettings = {
     instagram: "https://www.facebook.com/shoyaibyt",
     twitter: "https://www.facebook.com/ShoyaibGaming",
     twitch: "https://www.facebook.com/shoyaibyt222",
-    
+    discord: "",
   },
 
   // =====================================================================
