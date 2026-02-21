@@ -142,7 +142,7 @@ export const GeneralSettings = {
       "OBS & Live Production",
       "Video Editing & Growth",
       "Set Piece Mastery",
-      "FPS & Ping Fix",
+      "Ai video creator and story",
       "Audience Growth",
     ],
   },
