@@ -62,11 +62,11 @@ export const GeneralSettings = {
   //  Add your links here. If you don't have an account, leave it empty "".
   // =====================================================================
   social: {
-    youtube: "https://www.youtube.com/@shoyaib.yt132",
-    facebook: "https://www.facebook.com/shoyaib.yt.132",
-    instagram: "https://www.facebook.com/shoyaibyt",
-    twitter: "https://www.facebook.com/ShoyaibGaming",
-    twitch: "https://www.facebook.com/shoyaibyt222",
+    youtube: "https://www.youtube.com/https://www.youtube.com/@shoyaib.yt.132",
+    facebook: "https://www.facebook.com/https://www.facebook.com/shoyaib.yt.132",
+    instagram: "https://www.facebook.com/https://www.instagram.com/shoyaibyt",
+    twitter: "https://www.facebook.com/https://x.com/ShoyaibGaming",
+    twitch: "https://www.facebook.com/https://dashboard.twitch.tv/u/shoyaibyt222/settings/channel/about",
     discord: "",
   },
 
