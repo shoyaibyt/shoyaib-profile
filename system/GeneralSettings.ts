@@ -37,7 +37,7 @@ export const GeneralSettings = {
   // =====================================================================
   profile: {
     name: "Shoyaib YT", // Your main display name
-    subtitle: "Professional Pc And Mobaile Gamer & Content Creator", // The text under your name
+    subtitle: "Professional Pc And Mobaile Gamer & Ai Content Creator", // The text under your name
     verified: true, // Set to 'true' to show the Blue Tick, 'false' to hide it
     image: "/profile.png", // Your profile picture (put the file in /public folder)
     
